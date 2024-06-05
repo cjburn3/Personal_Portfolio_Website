@@ -11,7 +11,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <body className={inter.className}>
+      <header className="w-100">
+        <nav className="flex justify-center w-100">
+          <a href="./pages/home">Home</a>
+          <a href="./pages/about">About</a>
+          <a href="./pages/projects">Projects</a> 
+          <a class="navbar-brand" href="./pages/contact.html">Contact</a>
+        </nav>
+      </header>
+      {children}
+      <footer className="text-center">&copy; Codex January Cohort</footer>
+    </body>
+  </html>  
   );
 }
+
+
+
