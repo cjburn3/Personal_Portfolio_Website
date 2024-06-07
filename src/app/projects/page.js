@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-export default function ProjectPage() {
+export default function page() {
   return (
     <div><strong>Project Page:</strong>
 Title: CapStone Level 1 Project:

@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-export default function HomePage() {
+export default function page() {
   return (
     <div>Home Page:
         Introduction about me!

@@ -1,8 +1,9 @@
 
 import React from 'react'
 
-export default function AboutPage() {
+export default function page() {
   return (
+    <>
     <div>About Page: 
         <strong>College:</strong> *East Carolina University
         <strong>Degree:</strong> *BS Human Environmental Sciences-Hospitality Management
@@ -17,5 +18,6 @@ export default function AboutPage() {
                     *District Manager
                     *Owner Operator
     </div>
+    </>
   )
 }
